@@ -1,0 +1,6 @@
+.raiting {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 1rem 0;
+}

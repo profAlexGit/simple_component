@@ -1,0 +1,24 @@
+.expanded {
+	width: 335px;
+	height: 100vh;
+	background-color: moccasin;
+}
+
+.collapsed {
+	width: 0;
+}
+
+.showButton {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	padding: 20px 10px;
+	margin-top: 20px;
+	background-color: cadetblue;
+	position: absolute;
+}
+
+.expanded .showButton {
+	left: 335px;
+	transform: rotate(180deg);
+}
